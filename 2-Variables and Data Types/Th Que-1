@@ -21,11 +21,11 @@ Let
 
 Example:
 
-let age = 25;
-console.log(age); // Output: 25
+let age = 20;
+console.log(age); // Output: 20
 
-age = 30;
-console.log(age); // Output: 30
+age = 22;
+console.log(age); // Output: 22
 
 Const
 - const is used to declare constants in JavaScript.
