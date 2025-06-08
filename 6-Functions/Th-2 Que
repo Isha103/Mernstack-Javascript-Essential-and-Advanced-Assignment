@@ -1,0 +1,16 @@
+What is the difference between a function declaration and a 
+function expression? 
+
+In JavaScript, a function declaration and a function expression are two ways to define a function. The main difference between them lies in how they are defined and when they are available for use.
+
+Function Declaration
+A function declaration is a statement that defines a function with a specified name. It's defined using the function keyword followed by the function name and parameters.
+
+
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+
+
+- Function declarations are hoisted to the top of the script, which means you can call the function before it's defined.
+- Function declarations are defined throughout the entire scope.

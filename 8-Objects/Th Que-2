@@ -1,0 +1,38 @@
+Explain how to access and update object properties using dot notation 
+and bracket notation.
+
+In JavaScript, you can access and update object properties using two notations: dot notation and bracket notation.
+
+Dot Notation
+Dot notation is a simple and common way to access and update object properties.
+
+Accessing Properties
+
+const person = {
+  name: "John",
+  age: 30
+};
+
+console.log(person.name); // Output: "John"
+console.log(person.age); // Output: 30
+
+Bracket Notation
+Bracket notation is useful when you need to access or update properties dynamically.
+
+Accessing Properties
+
+const person = {
+  name: "John",
+  age: 30
+};
+
+console.log(person["name"]); // Output: "John"
+console.log(person["age"]); // Output: 30
+
+Dynamic Property Access
+Bracket notation is particularly useful when you need to access properties dynamically:
+
+
+const propertyName = "name";
+console.log(person[propertyName]); // Output: "Jane"
+

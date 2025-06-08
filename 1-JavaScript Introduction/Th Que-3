@@ -1,0 +1,26 @@
+ Discuss the use of <script> tag in HTML. How can you link an external JavaScript file to an HTML document?
+
+
+    -> Creating an external javascript file with "name.js" extension and writing JavaScript code in it.
+    -> link the external JavaScript file to the HTML document using the <script> tag with the src attribute.
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+
+    <script src="page-1.js"></script>   -> linking an external JavaScript file
+
+</head>
+<body>
+    
+    // JavaScript code goes here
+
+</body>
+</html>
+
+
