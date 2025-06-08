@@ -8,7 +8,7 @@ A function declaration is a statement that defines a function with a specified n
 
 
 function greet(name) {
-  console.log(`Hello, ${name}!`);
+  console.log("Isha");
 }
 
 
