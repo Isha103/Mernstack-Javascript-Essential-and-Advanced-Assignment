@@ -8,49 +8,45 @@ What are the different types of operators in JavaScript? Explain with examples.
 1. Arithmetic Operators
 These operators perform basic mathematical operations.
 
-Operator	Description	        Example (a = 10, b = 5)	Result
-+	Addition	a + b	        15
--	Subtraction	a - b	        5
-*	Multiplication	a * b	    50
-/	Division	a / b	        2
-%	Modulus (Remainder)	a % b	0
-++	Increment	a++	            11
---	Decrement	b--	            4
+-> Addition =>  a+b 
+-> Subtraction => a-b
+-> Multiplication => a*b  
+-> Division => a/b
+-> Modulus => a%b
+-> Increment => a++ (increments the value by 1)
+-> Decrement => a-- (decrements the value by 1)
+
 
 2. Assignment Operators
 These assign values to variables.
 
-Operator	Description	    Example	Equivalent To
-=	Assign	                x = 10	x = 10
-+=	Add and assign	        x += 5	x = x + 5
--=	Subtract and assign	    x -= 2	x = x - 2
-*=	Multiply and assign	    x *= 3	x = x * 3
-/=	Divide and assign	    x /= 2	x = x / 2
-%=	Modulus and assign	    x %= 3	x = x % 3
+-> Assign => x = 10
+-> Add and assign =>  x += 5 (equivalent to x = x + 5)     
+-> Subtract and assign => x -= 3 (equivalent to x = x - 3)   
+-> Multiply and assign => x *= 2 (equivalent to x = x * 2)   
+-> Divide and assign => x /= 4 (equivalent to x = x / 4)	   
+-> Modulus and assign => x %= 3 (equivalent to x = x % 3)	   
 
 3. Comparison Operators
 These compare two values and return a Boolean (true or false).
 
-Operator	Description	                Example (a = 10, b = 5)	Result
-==	Equal to (loose equality)	        a == '10'	true
-===	Equal value and type (strict)	    a === '10'	false
-!=	Not equal (loose)	                a != b	true
-!==	Not equal value or type (strict)	a !== '10'	true
->	Greater than	                    a > b	true
-<	Less than	                        a < b	false
->=	Greater than or equal to	        a >= 10	true
-<=	Less than or equal to	            b <= 5	true
-
+-> Equal to (loose equality) => (==) 
+-> Equal value and type (strict) => (===)
+-> Not equal (loose) => (!=)            
+-> Not equal value or type (strict) => (!==)
+-> Greater than => (>)                  
+-> Less than => (<)                   
+-> Greater than or equal to => (>=)   
+-> Less than or equal to => (<=)
 
 4. Logical Operators
 Used to combine multiple conditions.
 
-Operator	Description	        Example (a = 10, b = 5)	Result
-&&	Logical AND	                a > 5 && b < 10	true
-`		`	Logical OR
-!	Logical NOT	                !(a < 5)	true
+-> Logical AND => (&&)            
+-> Logical OR => (||)
+-> Logical NOT => (!)	                
 
-Example Code:
+Example:
 
 let a = 10;
 let b = 5;
