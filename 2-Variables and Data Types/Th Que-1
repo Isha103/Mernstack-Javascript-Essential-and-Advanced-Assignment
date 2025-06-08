@@ -8,11 +8,11 @@ Var
 
 Example:
 
-var name = "John";
-console.log(name); // Output: John
+var name = "isha";
+console.log(name); // Output: isha
 
-var name = "Jane";
-console.log(name); // Output: Jane
+var name = "khushi";
+console.log(name); // Output: khushi
 
 Let
 - let is a newer way to declare variables in JavaScript, introduced in ES6.
