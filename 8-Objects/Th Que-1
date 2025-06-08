@@ -6,16 +6,16 @@ An object in JavaScript is a collection of key-value pairs. It allows you to gro
 Syntax for creating an object:
 
 const person = {
-    name: "Riya",
-    age: 25,
+    name: "isha",
+    age: 20,
     isStudent: false,
     greet: function() {
         console.log("Hello, my name is " + this.name);
     }
 };
 
-console.log(person.name); // Output: Riya
-person.greet(); // Output: Hello, my name is Riya
+console.log(person.name); // Output: isha
+person.greet(); // Output: Hello, my name is isha
 
 
 => How are objects different from arrays?
