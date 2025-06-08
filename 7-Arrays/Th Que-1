@@ -1,0 +1,14 @@
+What is an array in JavaScript? How do you declare and initialize an array?
+
+What is an Array in JavaScript?
+
+In JavaScript, an array is a data structure that stores a collection of values, such as numbers, strings, objects, or other arrays. Arrays are ordered, meaning that each element has an index (a numerical position) that can be used to access and manipulate it.
+
+How to declare and initialize an array?
+
+-> You can declare an array using square brackets "[]" and initialize it with values separated by commas.
+
+    arrayName = [value1, value2, value3];
+    console.log(arrayName); 
+
+-->

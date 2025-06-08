@@ -1,0 +1,44 @@
+Explain the methods push(), pop(), shift(), and unshift() used in arrays
+
+In JavaScript, arrays have several methods that allow you to manipulate their elements. Here are explanations of the push(), pop(), shift(), and unshift() methods:
+
+push() Method
+- Adds one or more elements to the end of an array.
+- Returns the new length of the array.
+
+
+const colors = ["red", "green"];
+colors.push("blue");
+console.log(colors); // Output: ["red", "green", "blue"]
+
+
+pop() Method
+- Removes the last element from an array.
+- Returns the removed element.
+
+
+const colors = ["red", "green", "blue"];
+const lastColor = colors.pop();
+console.log(colors); // Output: ["red", "green"]
+console.log(lastColor); // Output: "blue"
+
+
+shift() Method
+- Removes the first element from an array.
+- Returns the removed element.
+
+
+const colors = ["red", "green", "blue"];
+const firstColor = colors.shift();
+console.log(colors); // Output: ["green", "blue"]
+console.log(firstColor); // Output: "red"
+
+
+unshift() Method
+- Adds one or more elements to the beginning of an array.
+- Returns the new length of the array.
+
+
+const colors = ["red", "green"];
+colors.unshift("blue");
+console.log(colors); // Output: ["blue", "red", "green"]

@@ -1,0 +1,38 @@
+What are variables in JavaScript? How do you declare a variable using var, let, 
+and const? 
+
+Var
+- var is the oldest way to declare variables in JavaScript.
+- Variables declared with var have function scope, which means they are accessible throughout the function they are declared in.
+- var variables can be redeclared and updated.
+
+Example:
+
+var name = "John";
+console.log(name); // Output: John
+
+var name = "Jane";
+console.log(name); // Output: Jane
+
+Let
+- let is a newer way to declare variables in JavaScript, introduced in ES6.
+- Variables declared with let have block scope, which means they are only accessible within the block they are declared in.
+- let variables can be updated but not redeclared.
+
+Example:
+
+let age = 25;
+console.log(age); // Output: 25
+
+age = 30;
+console.log(age); // Output: 30
+
+Const
+- const is used to declare constants in JavaScript.
+- Variables declared with const have block scope, similar to let.
+- const variables cannot be updated or redeclared.
+
+Example:
+
+const PI = 3.14;
+console.log(PI); // Output: 3.14

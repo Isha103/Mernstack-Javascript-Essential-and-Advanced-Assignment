@@ -1,0 +1,35 @@
+What is the DOM (Document Object Model) in JavaScript? How does JavaScript interact with the DOM? 
+
+What is the DOM?
+
+The DOM (Document Object Model) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree-like data structure, where each node represents an element, attribute, or piece of text.
+
+DOM Structure
+
+The DOM structure consists of:
+
+- Elements: Represented as nodes, elements are the building blocks of an HTML document (e.g., div, p, img).
+- Attributes: Properties of elements, such as id, class, or src.
+- Text: The content of elements, represented as text nodes.
+
+How JavaScript Interacts with the DOM
+JavaScript interacts with the DOM through various methods and properties, allowing you to:
+
+- Access elements: Use methods like document.getElementById() or document.querySelector() to select elements.
+- Manipulate elements: Use properties like innerHTML or textContent to modify element content.
+- Create elements: Use methods like document.createElement() to create new elements.
+- Add event listeners: Use methods like addEventListener() to attach event handlers to elements.
+
+Example:-
+
+/ Get an element by ID
+const heading = document.getElementById("title");
+
+// Modify the element's text content
+heading.textContent = "New Heading";
+
+// Add an event listener to the element
+heading.addEventListener("click", function() {
+  console.log("Heading clicked!");
+});
+

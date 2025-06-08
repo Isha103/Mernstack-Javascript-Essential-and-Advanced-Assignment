@@ -1,0 +1,27 @@
+What is the difference between == and === in JavaScript?
+
+The difference between == and === in JavaScript lies in type comparison:
+
+== (Loose Equality)
+Compares values only.
+
+Performs type coercion: it tries to convert operands to the same type before comparing.
+
+Example:
+
+'5' == 5     // true (string '5' is converted to number 5)
+true == 1    // true (true is converted to 1)
+null == undefined  // true (special case in JS)
+
+=== (Strict Equality)
+Compares both value and type.
+
+No type coercion — values must be identical in both type and value.
+
+Example:
+
+'5' === 5     // false (string vs. number)
+true === 1    // false (boolean vs. number)
+null === undefined  // false (different types)
+
+

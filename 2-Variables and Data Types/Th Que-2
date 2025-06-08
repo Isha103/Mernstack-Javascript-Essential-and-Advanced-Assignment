@@ -1,0 +1,27 @@
+Explain the different data types in JavaScript. Provide examples for each. 
+ 
+ JavaScript has several data types that can be categorized into two main groups: primitive data types and complex data types.
+
+Primitive Data Types
+1. Number: Represents numeric values, including integers and floating-point numbers.
+    - Example: let age = 25;
+2. String: Represents text values, enclosed in single or double quotes.
+    - Example: let name = "nisha";
+3. Boolean: Represents logical values, either true or false.
+    - Example: let isAdmin = true;
+4. Null: Represents the absence of any object value.
+    - Example: let emptyVar = null;
+5. Undefined: Represents an uninitialized or non-existent variable.
+    - Example: let newVar;
+6. Symbol: Represents a unique symbol value, introduced in ES6.
+    - Example: let sym = Symbol("foo");
+7. BigInt: Represents large integers that exceed the range of the Number type.
+    - Example: let bigInt = 12345678901234567890n;
+
+Complex Data Types
+1. Object: Represents a collection of key-value pairs.
+    - Example: let person = { name: "vihan", age: 25 };
+2. Array: Represents a collection of values, indexed by numbers.
+    - Example: let colors = ["red", "green", "blue"];
+
+ 

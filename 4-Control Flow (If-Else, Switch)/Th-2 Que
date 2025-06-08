@@ -1,0 +1,28 @@
+Describe how switch statements work in JavaScript. When should you use a 
+switch statement instead of if-else? 
+
+What is a switch Statement in JavaScript?
+A switch statement is a control flow structure that checks a variable or expression against multiple possible values (called "cases") and runs the
+code that matches the first true case.
+
+
+ Example:
+let day = 3;
+
+switch (day) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wednesday");
+    break;
+  default:
+    console.log("Another day");
+}
+
+
+ Output:
+Wednesday

@@ -1,0 +1,32 @@
+ What are JavaScript events? Explain the role of event listeners.
+
+
+In JavaScript, events are actions or occurrences that happen in the browser and can be responded to using code. These events are often triggered by
+user interactions or by the browser itself.
+
+Common Types of JavaScript Events:
+
+1. Mouse Events: Triggered by mouse actions, such as:
+click: When a mouse button is clicked.
+dblclick: When a mouse button is double-clicked.
+mouseover: When the mouse pointer enters an element.
+mouseout: When the mouse pointer leaves an element.
+
+2.Keyboard Events: Triggered by keyboard actions, such as:
+keydown: When a key is pressed down.
+keyup: When a key is released.
+keypress: When a key is pressed (deprecated in favor of keydown and keyup).
+
+3.Form Events: Triggered by form actions, such as:
+submit: When a form is submitted.
+change: When the value of an input element changes.
+focus: When an input element gains focus.
+
+4.Window Events: Triggered by actions related to the browser window, such as:
+load: When the page has finished loading.
+resize: When the window is resized.
+scroll: When the document is scrolled.
+
+Role of Event Listeners:
+An event listener is a function that waits for a specific event to occur on a particular element and executes a defined action in response. Event
+ listeners are essential for making web pages interactive and responsive to user actions.

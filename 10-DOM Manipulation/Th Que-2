@@ -1,0 +1,43 @@
+1. getElementById()
+Purpose: Selects a single element by its unique id attribute.
+
+Returns: The element object if found; otherwise, null.
+
+Usage: Ideal when you know the unique id of an element.
+
+Example:
+
+let header = document.getElementById("main-header");
+console.log(header);
+
+
+2. getElementsByClassName()
+Purpose: Selects all elements that have a specific CSS class.
+Returns: An HTMLCollection (array-like object) of matching elements.
+Usage: Good for selecting multiple elements sharing the same class.
+
+Example:
+
+let items = document.getElementsByClassName("list-item");
+console.log(items);         // HTMLCollection of elements with class "list-item"
+console.log(items[0]);      // Access first matched element
+
+
+3. querySelector()
+Purpose: Selects the first element that matches a CSS selector (id, class, attribute, etc.).
+Returns: The first matching element, or null if none found.
+Usage: More flexible than the above; you can use any CSS selector.
+
+Example:
+
+let firstItem = document.querySelector(".list-item");
+console.log(firstItem);  // The first element with class "list-item"
+
+
+Bonus: querySelectorAll()
+Works like querySelector(), but returns all matching elements as a NodeList.
+
+Example:
+
+let allItems = document.querySelectorAll(".list-item");
+console.log(allItems);  // NodeList of all elements with class "list-item"

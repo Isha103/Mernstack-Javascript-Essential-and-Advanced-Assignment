@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Divide by Zero Error Handling</title>
+</head>
+<body>
+
+  <h2>Divide by Zero Example</h2>
+
+  <script>
+    try {
+      let numerator = 100;
+      let denominator = 0;
+
+      if (denominator === 0) {
+        // Throw a custom error
+        throw new Error("Cannot divide by zero.");
+      }
+
+      let result = numerator / denominator;
+      console.log("Result:", result);
+
+    } catch (error) {
+      // Handle the error
+      console.error("Error:", error.message);
+      alert("Error: " + error.message);
+    }
+  </script>
+
+</body>
+</html>
