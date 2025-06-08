@@ -1,10 +1,9 @@
  What is an object in JavaScript? How are objects different from arrays? 
 
 
-An object in JavaScript is a collection of key-value pairs. It allows you to group related data and functions together. Keys (also called
- properties) are usually strings, and the values can be of any data type: numbers, strings, arrays, other objects, or even functions.
+An object in JavaScript is a collection of key-value pairs. It allows you to group related data and functions together. Keys (also called properties) are usually strings, and the values can be of any data type: numbers, strings, arrays, other objects, or even functions.
 
-Syntax for creating an object :-
+Syntax for creating an object:
 
 const person = {
     name: "Riya",
@@ -18,14 +17,15 @@ const person = {
 console.log(person.name); // Output: Riya
 person.greet(); // Output: Hello, my name is Riya
 
--> How are objects different from arrays?
 
-Arrays and objects are both data structures in JavaScript, but they serve different purposes and have different characteristics :-
+=> How are objects different from arrays?
 
--> Arrays are ordered collections of values, while objects are unordered collections of key-value pairs.
--> Arrays are indexed by numeric indices, while objects are indexed by string keys (or Symbols).
--> Arrays have built-in methods for manipulating ordered data, while objects have methods for managing key-value pairs.
--> Arrays are typically used for lists of items, while objects are used for representing entities with properties and behaviors.
+Arrays and objects are both data structures in JavaScript, but they serve different purposes and have different characteristics:
+
+=> Arrays are ordered collections of values, while objects are unordered collections of key-value pairs.
+=> Arrays are indexed by numeric indices, while objects are indexed by string keys (or Symbols).
+=> Arrays have built-in methods for manipulating ordered data, while objects have methods for managing key-value pairs.
+=> Arrays are typically used for lists of items, while objects are used for representing entities with properties and behaviors.
 
 Structure:
 
